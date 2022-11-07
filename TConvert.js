@@ -1,0 +1,10 @@
+function convertCotoF(valNum) {
+	valNum = parseFloat(valNum);
+	document.getElementById("outputFahrenheit").innerHTML=(valNum*1.8)+32;
+} 
+
+function convertCotoK(valNum) {
+	valNum = parseFloat(valNum);
+	document.getElementById("outputKelvin").innerHTML=(valNum)+273.15;
+}  
+ 
